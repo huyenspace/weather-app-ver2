@@ -1,0 +1,53 @@
+.Weather {
+  border: 1px solid darkblue;
+  font-family: "Itim", cursive;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+.Weather form {
+  margin-bottom: 20px;
+}
+.Weather h1 {
+  color: deeppink;
+  font-weight: bolder;
+  text-align: center;
+}
+.Weather ul {
+  list-style: none;
+  padding: 0;
+}
+.Weather .searchButton {
+  color: deeppink;
+  background-color: deepskyblue;
+  font-size: 18px;
+}
+.Weather .temperature {
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 300;
+  color: deepskyblue;
+}
+.Weather .unit {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1;
+  position: relative;
+  top: -32px;
+}
+.Weather .unit a {
+  text-decoration: none;
+}
+.Weather .currentWeather {
+  text-align: center;
+  text-transform: capitalize;
+  color: rgb(153, 4, 84);
+}
+.Weather .inforAdd {
+  text-align: end;
+  color: deepskyblue;
+}
+.Weather img {
+  height: 64px;
+  display: inline-block;
+}

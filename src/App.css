@@ -1,1 +1,10 @@
-
+.App {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.App p {
+  text-align: center;
+  font-family: "Itim", cursive;
+  color: darkblue;
+  font-size: 15px;
+}
